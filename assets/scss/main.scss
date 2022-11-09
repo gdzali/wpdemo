@@ -1,0 +1,174 @@
+$base-color: #04C48D;
+$base-text-color: #252B39;
+$base-background-gray : #F3EFED;
+
+body {
+  margin:0;
+}
+
+.heroSection {
+  [class*="col-"],
+  [class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .left-area {
+    font-family: 'Poppins';
+    background: $base-color;
+    padding-top:149px;
+    padding-bottom:149px;
+    padding-left:214px;
+    padding-right: 76px;
+    h1 {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 48px;
+      color:$base-text-color;
+    }
+    .content {
+      margin:16px 0px 42px 0px;
+      font-weight: 400;
+      font-size: 27px;
+      line-height: 40px;
+      color:$base-text-color;
+    }
+    span {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:$base-text-color;
+    }
+  }
+}
+
+.filteringArea {
+  padding:47px 0px 66px 0px;
+  font-family: 'Poppins';
+  .filterCollapseButton {
+    .btn-collapse {
+      text-align: left;
+      display: block;
+      padding:23px 17px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color:$base-text-color;
+      text-decoration: none;
+      background: $base-background-gray;
+      &:after {
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 10px;
+        text-align: right;
+        content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16px' height='16px' viewBox='0 0 16 16' version='1.1'%3E%3Cg id='surface1'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(0%25,0%25,0%25);fill-opacity:1;' d='M 7.292969 3.292969 C 7.683594 2.902344 8.320312 2.902344 8.710938 3.292969 L 14.710938 9.292969 C 15.101562 9.683594 15.101562 10.320312 14.710938 10.710938 C 14.320312 11.101562 13.683594 11.101562 13.292969 10.710938 L 8 5.414062 L 2.707031 10.707031 C 2.316406 11.097656 1.679688 11.097656 1.289062 10.707031 C 0.898438 10.316406 0.898438 9.679688 1.289062 9.289062 L 7.289062 3.289062 Z M 7.292969 3.292969 '/%3E%3C/g%3E%3C/svg%3E%0A");
+      }
+    }
+    .btn-collapse.collapsed {
+      &:after {
+        display: block;
+        text-align: right;
+        content:url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16px' height='16px' viewBox='0 0 16 16' version='1.1'%3E%3Cg id='surface1'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(0%25,0%25,0%25);fill-opacity:1;' d='M 7.292969 12.707031 C 7.683594 13.097656 8.320312 13.097656 8.710938 12.707031 L 14.710938 6.707031 C 15.101562 6.316406 15.101562 5.679688 14.710938 5.289062 C 14.320312 4.898438 13.683594 4.898438 13.292969 5.289062 L 8 10.585938 L 2.707031 5.292969 C 2.316406 4.902344 1.679688 4.902344 1.289062 5.292969 C 0.898438 5.683594 0.898438 6.320312 1.289062 6.710938 L 7.289062 12.710938 Z M 7.292969 12.707031 '/%3E%3C/g%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+  .filterCollapseOptions {
+    padding:18px;
+    background: #FAF8F8;
+    display: block;
+    margin-bottom: 12px;
+    label {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      color:$base-text-color;
+      margin-left:14px;
+    }
+    .singleOption {
+      margin-bottom: 10px;
+      input {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #979797;
+      }
+    }
+  }
+  .apply-button-area {
+    margin-top:28px;
+    a {
+      padding:8px 16px;
+      background: $base-color;
+      color: $base-text-color;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.484848px;
+      font-family: 'Poppins';
+      text-decoration: none;
+      border-radius: 3px;
+    }
+  }
+  .singleCourseItem {
+    margin-bottom: 24px;
+    .singleCourseItem_container {
+      background: #FFFFFF;
+      box-shadow: 0px 11px 14px rgba(132, 132, 132, 0.15);
+      img {
+        width:100%;
+        height: 169px;
+      }
+      .singleCourseItem_body {
+        padding: 5px 16px 5px 12px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color:$base-text-color;
+        a {
+          text-decoration: none;
+          .title {
+            display: block;
+            color:$base-text-color;
+            margin-bottom: 5px;
+          }
+        }
+        .duration {
+          margin-right: 21px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .time {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+    .singleCourseItem_footer {
+      background: #F5F5F5;
+      padding:10px 13px;
+      ul {
+        display: inline-block;
+        list-style-type: none;
+        padding-left: 0px;
+        margin: 0;
+      }
+      li {
+        display: inline-block;
+        background: $base-text-color;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        padding:4px 10px;
+        border-radius: 20px;
+        transition: 0.5s;
+        &:hover {
+          transition: 0.5s;
+          color:$base-text-color;
+          background: $base-color;
+          cursor:pointer;
+        }
+      }
+    }
+  }
+}
