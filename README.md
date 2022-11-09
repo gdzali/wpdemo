@@ -1,4 +1,4 @@
-# Ali G. Itineris Test Assignment.
+# Ali G. WordPress Demonstration Project
 
 This project contains the basic usage of my WordPress skills.
 
@@ -29,12 +29,6 @@ This project contains the basic usage of my WordPress skills.
   <li>I seperated custom post type, taxonomy and custom fields in different pages. That will prevent confilict and take more control over my project.</li>
   <li>Composer used for ACF Builder, instead of using UI of plugin, ACF Builder is more professional and developer friendly.</li>
   <li>I could not use images for Custom Post Type posts in Figma. In figma version they has low resolution and looks not great. I just found high resolution images, used them as dummy.</li>
-</ul>
-
-<h4>Bugs</h4>
-<ul>
-  <li>There is a bug of Bootstrap's built-in tooltip. It supposed to be showed at the top of content. But it shows up somewhere else. I guess it's from container. I could not figure out why it has happening. Sorry for that.</li>
-  <span><i>No other bugs detected.</i></span>
 </ul>
 
 <h4>Installation</h4>
